@@ -1,6 +1,7 @@
 {
 	"require": {
-		"gskema/prestashop-installer": "~2.0"
+		"ext-gd": "*"
+		"gskema/prestashop-installer": "~2.0"        
 	},
 	"scripts": {
 		"prestashop-setup-core": "prestashop new store --release=1.7.1.0 --fixture=starwars",
